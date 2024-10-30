@@ -1,0 +1,19 @@
+{
+    "name": "hedera-token-key-transfer",
+    "version": "1.0.0",
+    "description": "Test project for Hedera token key transfers",
+    "scripts": {
+        "test": "hardhat test",
+        "deploy": "hardhat run scripts/deploy.ts --network testnet"
+    },
+    "dependencies": {
+        "@hashgraph/sdk": "^2.37.0",
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+        "hardhat": "^2.19.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}
